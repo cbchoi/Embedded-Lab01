@@ -177,7 +177,7 @@ void copy_large_files(char* src_path, char* dst_path, int buff_size)
 }
 
 /* Problem 10 */
-void get_contents_from_buffer(char* file_path, char* buff, int buff_size, int pos)
+void print_file_size_with_stat(char* file_path)
 {
 	/*
 
