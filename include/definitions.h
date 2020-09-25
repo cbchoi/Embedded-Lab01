@@ -53,6 +53,7 @@ char* move_to_given_path(char* pPath)
 
 
 	*/	
+	return 0;
 }
 
 /* Problem 02 */
@@ -68,6 +69,7 @@ char* move_to_parent()
 
 
 	*/
+	return 0;
 }
 
 /* Problem 03 */
@@ -83,6 +85,7 @@ int create_directory(char* name)
 
 
 	*/
+	return 0;
 }
 
 

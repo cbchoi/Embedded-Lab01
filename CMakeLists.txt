@@ -3,7 +3,7 @@ PROJECT( FILE_MANAGER )
 
 # 프로젝트 이름 
 PROJECT ( "FileManager" )
-SET ( STUDENT_ID 47987)
+SET ( STUDENT_ID 20200925)
 
 # 빌드 형상(Configuration) 및 주절주절 Makefile 생성 여부
 SET ( CMAKE_BUILD_TYPE Debug )

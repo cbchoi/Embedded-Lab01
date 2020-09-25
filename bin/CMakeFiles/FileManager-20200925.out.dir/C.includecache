@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/definitions.h
+unistd.h
+-
+fcntl.h
+-
+sys/stat.h
+-
+sys/types.h
+-
+dirent.h
+-
+stdlib.h
+-
+
+/home/cbchoi/Embedded-Lab01/src/main.c
+stdio.h
+-
+string.h
+-
+definitions.h
+-
+

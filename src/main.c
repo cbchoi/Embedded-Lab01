@@ -52,7 +52,7 @@ int main()
 		
 		for(i = 0; i < count; i++)
 		{
-			get_contents_from_buffer("./test/large_file.bin", recon_buff+(i * CODE_LEN), CODE_LEN, candidate[i]);
+			read_file("./test/large_file.bin", recon_buff+(i * CODE_LEN), CODE_LEN, candidate[i]);
 		}
 		recon_buff[sizeof(char) * count *  CODE_LEN] = '\0';
 		printf("Reconstructed Code: %s\n", recon_buff);
@@ -60,10 +60,9 @@ int main()
 
 	printf("\n%s\n", "Test Suite06 >> Find letters in some position");
 	{
-		
-		printf("File size using lseek: %ld bytes\n", file_size);
 		size_t file_size = get_file_size("./test/large_file.bin");
-		
+		printf("File size using lseek: %ld bytes\n", file_size);
+			
 		printf("File Info using stat\n");
 		/*
 
