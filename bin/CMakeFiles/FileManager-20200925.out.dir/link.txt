@@ -1,1 +1,0 @@
-/usr/bin/cc -DDEBUG -DC_FLAGS  -static -Wl,--gc-sections -DDEBUG -DLINKER_FLAGS CMakeFiles/FileManager-20200925.out.dir/src/main.c.o  -o Debug/FileManager-20200925.out 
