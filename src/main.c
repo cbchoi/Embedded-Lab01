@@ -58,22 +58,14 @@ int main()
 		printf("Reconstructed Code: %s\n", recon_buff);
 	}
 
-	printf("\n%s\n", "Test Suite06 >> Find letters in some position");
+	printf("\n%s\n", "Test Suite06 >> Calculate File Size using lseek and stat function");
 	{
-		size_t file_size = get_file_size("./test/large_file.bin");
+		size_t file_size = 0;
+		printf("File Info using lstat\n");
+		print_file_size_with_stat("./test/large_file.bin");
+
+		file_size = get_file_size("./test/large_file.bin");		
 		printf("File size using lseek: %ld bytes\n", file_size);
-			
-		printf("File Info using stat\n");
-		/*
-
-
-
-			You should enter your code here.
-		
-
-
-
-		*/
 		
 	}
 
